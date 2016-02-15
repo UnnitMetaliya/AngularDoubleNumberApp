@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="angular.min.js"></script>
+	<script type="text/javascript" src="doublenumber.js"></script>
+</head>
+<body ng-app="doubleNumber">
+
+		<div ng-controller="doubleIt">
+			Two times <input ng-model="num"> equals {{ double(num) }}
+		</div>
+
+</body>
+</html>
